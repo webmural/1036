@@ -1,0 +1,27 @@
+html {
+  font-family: monospace;
+  font-size: max(1em, 21vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dashed;
+}
+
+footer {
+  font-size: min(8vmax, 1rem);
+}

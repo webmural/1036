@@ -1,0 +1,17 @@
+::selection {
+  background: #111;
+  color: pink;
+}
+
+:root {
+  color: #111;
+  background: pink;
+}
+
+:any-link {
+  color: inherit;
+}
+
+:focus {
+  outline-color: currentColor;
+}
